@@ -117,3 +117,65 @@ p.subheader {
   background-color: #82299F;
   padding: 10px;
 }
+
+.participating-gardens {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+.participating-gardens .slider-info {
+  width: 30%;
+}
+
+.participating-gardens .slider-info h1 {
+  font-size: 24px;
+}
+
+.participating-gardens .slider-info p {
+  font-size: 18px;
+}
+
+.slider .caption {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.slider .caption .caption2 {
+  font-size: 14px;
+  text-align: center;
+  font-weight: normal;
+  color: darkgray;
+}
+
+.slider .link {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.slider .link a {
+  color: gray;
+  text-decoration: none;
+  font-style: italic;
+}
+
+
+.slider img {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #4d4d4d;
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+}
+
+.bx-wrapper {
+  border-radius: 10px;
+}
+
+.bx-wrapper.shadow {
+  box-shadow: 0 0 3px #82299f;
+}

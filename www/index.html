@@ -1,82 +1,123 @@
 <!DOCTYPE html>
 
-    <head>
-      <title>GardenHub</title>
+<head>
+  <title>GardenHub</title>
 
-      <!-- Meta -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-      <meta name="description" content="GardenHub picks your crops and gives themto people who need them.">
+  <!-- Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="GardenHub picks your crops and gives themto people who need them.">
 
-      <!-- Open Graph protocol -->
-      <meta property="og:title" content="GardenHub">
-      <meta property="og:type" content="website">
-      <meta property="og:url" content="https://gardenhub.io">
-      <meta property="og:image" content="">
-      <meta property="og:description" content="GardenHub picks your crops and gives themto people who need them.">
-      <meta property="og:locale" content="en_US">
+  <!-- Open Graph protocol -->
+  <meta property="og:title" content="GardenHub">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gardenhub.io">
+  <meta property="og:image" content="">
+  <meta property="og:description" content="GardenHub picks your crops and gives themto people who need them.">
+  <meta property="og:locale" content="en_US">
 
-      <!-- Stylesheets -->
-      <link rel="stylesheet" href="assets/style.css">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/style.css">
 
-      <!-- Favicons -->
+  <!-- Favicons -->
 
-    </head>
+  <!-- BX Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
-    <body>
+  <script>
+  $(document).ready(function(){
+    $('.slider').bxSlider({
+      captions: true,
+      slideWidth: 550,
+      wrapperClass: "bx-wrapper shadow"
+    });
+  });
+  </script>
 
-      <nav>
-        <ul>
-          <li class="logo">GardenHub</li>
-          <li>How it works</li>
-          <li>Participating Gardens</li>
-          <li>Contact</li>
-          <li class="login"><button>Log in</button></li>
-        </ul>
-      </nav>
+</head>
 
-      <section class="intro">
-        <div class="title">
-          <h1>Don't let your food rot.</h1>
-          <p class="subheader">GardenHub picks your crops and gives them to people who need them.</p>
-          <button class="inverted">Get Started</button>
+<body>
+
+  <nav>
+    <ul>
+      <li class="logo">GardenHub</li>
+      <li>How it works</li>
+      <li>Participating Gardens</li>
+      <li>Contact</li>
+      <li class="login"><button>Log in</button></li>
+    </ul>
+  </nav>
+
+  <section class="intro">
+    <div class="title">
+      <h1>Don't let your food rot.</h1>
+      <p class="subheader">GardenHub picks your crops and gives them to people who need them.</p>
+      <button class="inverted">Get Started</button>
+    </div>
+    <div class="picker-pic">
+      <img src="assets/images/picker.png">
+    </div>
+  </section>
+
+  <section class="purple">
+    <h1 class="section-header">How it Works</h1>
+    <p class="subheader">GardenHub takes your extra food and donates it to local charities and restaurants, depending on the need.</p>
+    <div class="steps">
+      <div class="step">
+        <h2>1.</h2>
+        <img src="assets/images/step1.svg">
+        <h3>Get Invited</h3>
+        <p>Your garden manager will add your plot to GardenHub and invite you to use the app.</p>
+      </div>
+      <div class="step">
+        <h2>2.</h2>
+        <img src="assets/images/step2.svg">
+        <h3>Place an Order</h3>
+        <p>You can manage your plot and place an order through the app. Cancel anytime.</p>
+      </div>
+      <div class="step">
+        <h2>3.</h2>
+        <img src="assets/images/step3.svg">
+        <h3>Kick back!</h3>
+        <p>Your crops get picked and donated, while you do whatever you want to instead.</p>
+      </div>
+    </div>
+    <div class="full-bar">
+      <p>Want to add your community garden to GardenHub? <a href="">Get in touch with us directly</a>.</p>
+    </div>
+  </section>
+
+  <section class="participating-gardens">
+
+    <div class="slider">
+      <!-- Images should be 500x300 -->
+      <li>
+        <div class="caption">
+          <span>Liberty Lands</span>
+          <div class="caption2">Philadelphia, PA</div>
         </div>
-        <div class="picker-pic">
-          <img src="assets/images/picker.png">
-        </div>
-      </section>
+        <img src="assets/images/libertylands.jpg" />
+        <div class="link"><a href="http://www.nlna.org/liberty-lands-2/">http://www.nlna.org/liberty-lands-2/</a></div>
+      </li>
 
-      <section class="purple">
-        <h1 class="section-header">How it Works</h1>
-        <p class="subheader">GardenHub takes your extra food and donates it to local charities and restaurants, depending on the need.</p>
-        <div class="steps">
-          <div class="step">
-            <h2>1.</h2>
-            <img src="assets/images/step1.svg">
-            <h3>Get Invited</h3>
-            <p>Your garden manager will add your plot to GardenHub and invite you to use the app.</p>
-          </div>
-          <div class="step">
-            <h2>2.</h2>
-            <img src="assets/images/step2.svg">
-            <h3>Place an Order</h3>
-            <p>You can manage your plot and place an order through the app. Cancel anytime.</p>
-          </div>
-          <div class="step">
-            <h2>3.</h2>
-            <img src="assets/images/step3.svg">
-            <h3>Kick back!</h3>
-            <p>Your crops get picked and donated, while you do whatever you want to instead.</p>
-          </div>
+      <li>
+        <div class="caption">
+          <span>Sign up!</span>
+          <div class="caption2">Your community garden can be next!</div>
         </div>
-        <div class="full-bar">
-          <p>Want to add your community garden to GardenHub? <a href="">Get in touch with us directly</a>.</p>
-        </div>
-      </section>
+        <img src="assets/images/yourgarden.png" />
+        <div class="link"><a href="mailto:Jennifergold@gmail.com">email: Jennifergold@gmail.com</a></div>
+      </li>
 
-      <section>
-        <h1>Participating Gardens</h1>
-        <p class="subheader">Find a garden near you.</p>
-      </section>
+    </div>
 
-    </body>
+    <div class="slider-info">
+      <h1>Participating Gardens</h1>
+      <p class="subheader">Find a garden near you.</p>
+    </div>
+  </section>
+
+</body>
+
 </html>

@@ -1,6 +1,6 @@
 body {
   font-family: Open Sans;
-  margin: 0px;
+  margin: 0px auto;
 }
 
 nav ul {
@@ -10,6 +10,7 @@ nav ul {
   padding-bottom: 20px;
   font-size: 14px;
   margin: 20px;
+  max-width: 1300px;
 }
 
 nav ul li a {
@@ -100,6 +101,7 @@ section.intro {
   margin-left: 50px;
   width: 95%;
   justify-content: space-around;
+  max-width: 1300px;
 }
 
 .intro button {
@@ -109,6 +111,7 @@ section.intro {
 
 .intro div {
   width: 40%;
+  max-width: 460px;
 }
 
 .intro h1 {
@@ -118,6 +121,7 @@ section.intro {
 
 .picker-pic img {
   width: 80%;
+  max-width: 500px;
 }
 
 button.inverted {

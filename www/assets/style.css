@@ -6,6 +6,7 @@ body {
 nav ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding-bottom: 20px;
   font-size: 14px;
   margin: 20px;
@@ -49,8 +50,13 @@ nav ul li {
   font-weight: bold;
 }
 
-nav ul li.logo {
+nav ul li.logo_word {
   color: #a333c8;
+}
+
+.logo img {
+  size: 20px;
+  margin-right: 2px;
 }
 
 nav ul li.login {
@@ -62,15 +68,20 @@ nav ul li.login {
 @media (max-width: 600px){
 
   nav ul {
-    display: flex;
-    justify-content: space-around;
-    font-size: 14px;
-    margin: 20px 0px;
     padding: 0px;
   }
 
-  nav ul li.login {
-    margin-left: 0%;
+  nav li {
+    display: none;
+    justify-content: space-between;
+  }
+
+  nav li.logo {
+    display: block;
+  }
+
+  nav li.login {
+    display: block;
   }
 
 }

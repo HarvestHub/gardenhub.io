@@ -16,25 +16,11 @@
   <meta property="og:locale" content="en_US">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
   <!-- Favicons -->
-  <link rel="icon" sizes="16x16" href="assets/images/favicon.ico">
-
-  <!-- BX Slider -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-  <script>
-  $(document).ready(function(){
-    $('.slider').bxSlider({
-      captions: true,
-      slideWidth: 550,
-      wrapperClass: "bx-wrapper shadow"
-    });
-  });
-  </script>
+  <link rel="icon" sizes="16x16" href="/assets/images/favicon.ico">
 
 </head>
 
@@ -42,7 +28,7 @@
 
   <nav id="nav">
     <ul>
-      <li class="logo"><img src="assets/images/logo_word.png" alt="GardenHub"/></li>
+      <li class="logo"><img src="/assets/images/logo_word.png" alt="GardenHub"/></li>
       <li><a href="#howItWorks">How it works</a></li>
       <li><a href="#participatingGardens">Participating Gardens</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -148,6 +134,23 @@
       <p>This website, and the GardenHub application are freely licenced under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank">GNU AGPL 3.0</a></p>
       <p>View the code on <a href="https://github.com/HarvestHub" target="_blank">GitHub</a>.</p>
     </section>
+
+
+    <!-- BX Slider -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+    <!-- Local Scroll -->
+
+    <!-- Include latest jquery.scrollTo, can download from https://github.com/flesler/jquery.scrollTo/releases -->
+    <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+
+    <!-- Initialize the plugin, the contents of the script can be inlined here, of course -->
+    <script type="text/javascript" src="assets/init.js"></script>
 
 </body>
 

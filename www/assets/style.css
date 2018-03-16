@@ -1,5 +1,5 @@
 body {
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   margin: 0px auto;
 }
 
@@ -193,6 +193,7 @@ section.purple a {
 }
 
 h1.section-header {
+  padding: 0 10px;
   padding-top: 40px;
   margin-bottom: 10px;
 }
@@ -200,6 +201,7 @@ h1.section-header {
 p.subheader {
   max-width: 600px;
   margin: 0px auto;
+  padding: 0 10px;
 }
 
 .steps {
@@ -393,6 +395,11 @@ input[type=submit]:hover {
   color: white;
   background-color: #a333c8;
   border: 2px white solid;
+}
+
+textarea {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 

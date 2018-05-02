@@ -257,7 +257,7 @@ p.subheader {
 
 .participating-gardens {
   display: flex;
-  width: 80%;
+  width: 95%;
   justify-content: space-around;
   margin: 80px auto;
 }
@@ -268,10 +268,20 @@ p.subheader {
 
 .participating-gardens .slider-info h1 {
   font-size: 24px;
+  margin-top: 0px;
+}
+
+.participating-gardens .slider-info  li{
+  margin-bottom: 10px;
 }
 
 .participating-gardens .slider-info p {
   font-size: 18px;
+}
+
+.participating-gardens .slider-info a button {
+  margin-left: 40px;
+  margin-top: 10px;
 }
 
 .slider .caption {
@@ -336,6 +346,12 @@ p.subheader {
 
   .participating-gardens .slider-info p {
     margin-bottom: 20px;
+  }
+
+  .participating-gardens .slider-info a button {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
   }
 
 }
